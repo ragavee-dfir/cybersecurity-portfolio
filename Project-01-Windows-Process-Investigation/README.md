@@ -26,4 +26,17 @@ The investigation identified the following normal parent-child relationships:
 ---
 ## Findings
 - explorer.exe launched expected desktop applications.
-- Microsoft 
+- Microsoft Teams created multiple msedgewebview2.exe child process.
+- Microsoft Edge created multiple browser processes, consistent with Chromium architecture.
+- No suspicious parent-child relationships were indentified.
+---
+## Conclusion 
+The Windows process hierarchy appeared consistent with normal Windows behaviour. No evidence of suspicious or malicious process execution was identified during this investigation.
+
+---
+## Skills Demonstrated 
+- Windows Process Investigation
+- Process Tree Analysis
+- Parent-Child processs Analysis
+- Endpoint Investigation
+- Basic DFIR
