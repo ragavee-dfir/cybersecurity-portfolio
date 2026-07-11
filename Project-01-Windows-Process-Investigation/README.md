@@ -16,17 +16,24 @@ The objective of this project was to investigate running Windows processes using
 ---
 ## Evidence Collected 
 ### Process Tree
-The investigation identified the following normal parent-child relationships:
+### Figure 1- Process Explorer Process Tree
+Figure 1 shows the Process Explorer process tree collected during the Windows endpoint investigation. The evidence was reviewed to identify normal and abnormal parent-child process relationships.
+![Windows Process Tree](Screenshots/explorer_process_tree.png)
+
+The investigation identified the following normal parent-child process relationships:
 - winlogon.exe -> explorer.exe
 - explorer.exe -> SecurityHealthSystray.exe
 - explorer.exe -> ms-teams.exe
 - explorer.exe -> msedge.exe
 - ms-teams.exe -> msedgewebview2.exe
 - msedge.exe -> Multiple msedge.exe processes
+
+The observed process hierachy was consistent with normal Windows 11 system behaviour. No indicators of malicious process execution were indentified during this investigation.
+
 ---
 ## Findings
 - explorer.exe launched expected desktop applications.
-- Microsoft Teams created multiple msedgewebview2.exe child process.
+- Microsoft Teams created multiple msedgewebview2.exe child processes.
 - Microsoft Edge created multiple browser processes, consistent with Chromium architecture.
 - No suspicious parent-child relationships were indentified.
 ---
