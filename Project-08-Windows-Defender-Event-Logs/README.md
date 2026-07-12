@@ -46,11 +46,11 @@ The objective of this project was to explore Microsoft Defender Operational logs
 
 The screenshot below shows Microsoft Defender Operational events displayed within Windows Event Viewer.
 
-![Windows Defender Operational Log](defender_operational_overview.png)
+![Windows Defender Operational Log](defender_event5007_general.png)
 
 ---
 
-### Figure 2 – Event ID 5007 (General View)
+### Event ID 5007 (General View)
 
 The screenshot below shows the General tab explaining that Microsoft Defender detected a configuration change and recommends reviewing unexpected changes.
 
@@ -58,11 +58,11 @@ The screenshot below shows the General tab explaining that Microsoft Defender de
 
 ---
 
-### Figure 3 and 4 – Event ID 5007 Details
+### Figure 2 and 3 – Event ID 5007 Details
 
 The screenshot below shows the Details tab in Friendly View and XML View, displaying the raw event information recorded by Windows.
 
-Figure 3
+
 ![Event ID 5007 Details](defender_event5007_friendly_details.png)
 
 ![Event ID 5007 Details](defender_event5007_xml_view.png)
