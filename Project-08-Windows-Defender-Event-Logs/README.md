@@ -62,8 +62,10 @@ The screenshot below shows the General tab explaining that Microsoft Defender de
 
 The screenshot below shows the Details tab in Friendly View and XML View, displaying the raw event information recorded by Windows.
 
-![Event ID 5007 Details](defender_event5007_details.png)
-![Event ID 5007 Details](defender_event5007_details.png)
+Figure 3
+![Event ID 5007 Details](defender_event5007_friendly_details.png)
+
+![Event ID 5007 Details](defender_event5007_xml_view.png)
 
 ---
 
